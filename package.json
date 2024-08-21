@@ -10,8 +10,9 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		 "predeploy": "npm run build",
-  		"deploy": "gh-pages -d public"
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d public",
+		"homepage": "https://ibrhmahmd.github.io/Portfolio/"
 	},
 	"devDependencies": {
 		"@iconify-json/carbon": "^1.1.21",
@@ -41,7 +42,7 @@
 		"prismjs": "^1.29.0",
 		"sass": "^1.57.1",
 		"slugify": "^1.6.6",
-		"svelte": "4.2.1",
+		"svelte": "^4.2.1",
 		"svelte-check": "3.5.2",
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.3",

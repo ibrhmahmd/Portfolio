@@ -12,7 +12,7 @@ export const items: Array<Education> = [
 		period: { from: new Date(2021, 9, 1), to: new Date(2025) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['C#', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
 	},
 	
 ];
