@@ -11,7 +11,7 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d public",
+		"deploy": "gh-pages -d dist",
 		"homepage": "https://ibrhmahmd.github.io/Portfolio/"
 	},
 	"devDependencies": {
